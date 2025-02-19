@@ -1,0 +1,12 @@
+[Unit]
+Description:Test service to execute at shutdown prior to losing network
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStop=shutdown script.sh
+
+[Install]
+WantedBy=multi-user.target
