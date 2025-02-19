@@ -1,6 +1,6 @@
 # linuxvm-shutdown-webhook
 
-Set up webhook notifications when Linux machines turn on and shutdown. Useful when dealing with cloud instances such as AWS and you want to keep everything kernel-specific.
+Set up webhook notifications when Linux machines turn on and shutdown. Useful when dealing with cloud instances such as AWS and you want to keep everything kernel-only.
 
 # Setup 
 
